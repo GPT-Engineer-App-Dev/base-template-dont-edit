@@ -18,7 +18,7 @@ import { Badge } from "@/components/ui/badge"
 import {
   Breadcrumb,
   BreadcrumbItem,
-  Breadcrumba,
+  BreadcrumbLink,
   BreadcrumbList,
   BreadcrumbPage,
   BreadcrumbSeparator,
@@ -62,8 +62,6 @@ import {
   TooltipContent,
   TooltipTrigger,
 } from "@/components/ui/tooltip"
-
-
 
 const Index = () => {
   return (
@@ -212,15 +210,15 @@ const Index = () => {
           <Breadcrumb className="hidden md:flex">
             <BreadcrumbList>
               <BreadcrumbItem>
-                <Breadcrumba asChild>
+                <BreadcrumbLink asChild>
                   <a href="#">Dashboard</a>
-                </Breadcrumba>
+                </BreadcrumbLink>
               </BreadcrumbItem>
               <BreadcrumbSeparator />
               <BreadcrumbItem>
-                <Breadcrumba asChild>
+                <BreadcrumbLink asChild>
                   <a href="#">Products</a>
-                </Breadcrumba>
+                </BreadcrumbLink>
               </BreadcrumbItem>
               <BreadcrumbSeparator />
               <BreadcrumbItem>
@@ -318,7 +316,6 @@ const Index = () => {
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
-                <!-- ADD MOST OF THE CODE HERE -->
                 </CardContent>
                 <CardFooter>
                   <div className="text-xs text-muted-foreground">
