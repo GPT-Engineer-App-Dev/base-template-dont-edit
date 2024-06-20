@@ -63,8 +63,6 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip"
 
-
-
 const Index = () => {
   return (
     <div className="flex min-h-screen w-full flex-col bg-muted/40">
@@ -318,7 +316,6 @@ const Index = () => {
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
-                <!-- ADD MOST OF THE CODE HERE -->
                 </CardContent>
                 <CardFooter>
                   <div className="text-xs text-muted-foreground">
