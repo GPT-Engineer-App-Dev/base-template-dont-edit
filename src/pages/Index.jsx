@@ -18,6 +18,7 @@ import { Badge } from "@/components/ui/badge"
 import {
   Breadcrumb,
   BreadcrumbItem,
+  BreadcrumbLink,
   BreadcrumbList,
   BreadcrumbPage,
   BreadcrumbSeparator,
@@ -209,15 +210,15 @@ const Index = () => {
           <Breadcrumb className="hidden md:flex">
             <BreadcrumbList>
               <BreadcrumbItem>
-                <Breadcrumba asChild>
+                <BreadcrumbLink asChild>
                   <a href="#">Dashboard</a>
-                </Breadcrumba>
+                </BreadcrumbLink>
               </BreadcrumbItem>
               <BreadcrumbSeparator />
               <BreadcrumbItem>
-                <Breadcrumba asChild>
+                <BreadcrumbLink asChild>
                   <a href="#">Products</a>
-                </Breadcrumba>
+                </BreadcrumbLink>
               </BreadcrumbItem>
               <BreadcrumbSeparator />
               <BreadcrumbItem>
